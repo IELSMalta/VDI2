@@ -85,7 +85,7 @@ mode "resize" {
 }
 bindsym \$mod+r mode "resize"
 include /etc/sway/config.d/*
-exec bash /home/vdi/rdp_connect.sh
+exec bash /home/vdi2/rdp_connect.sh
 EOL
 
 # Confirm installation success
