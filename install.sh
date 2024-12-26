@@ -13,7 +13,8 @@ sudo apt install -y \
     pavucontrol \
     alsa-utils \
     sway \
-    freerdp2-wayland
+    freerdp2-wayland \
+    wayvnc
 
 # Export the necessary environment variable for systemd user services
 export XDG_RUNTIME_DIR=/run/user/$(id -u)
