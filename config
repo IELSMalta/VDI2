@@ -26,6 +26,7 @@ include /etc/sway/config-vars.d/*
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 #output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg /home/vdi/vdi2/vall.webp fill
 #
 # Example configuration:
 #
@@ -183,4 +184,4 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 include /etc/sway/config.d/*
 exec bash /home/vdi/rdp_connect.sh
-exec source /home/vdi/set_wayland_display.sh
+#exec source /home/vdi/set_wayland_display.sh
