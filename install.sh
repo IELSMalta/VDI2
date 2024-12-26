@@ -14,8 +14,11 @@ sudo apt install -y \
     alsa-utils \
     sway \
     freerdp2-wayland \
-    wayvnc
-
+    wayvnc \
+    wl-clipboard \
+    wayland-protocols \
+    wayland-utils 
+    
 # Export the necessary environment variable for systemd user services
 export XDG_RUNTIME_DIR=/run/user/$(id -u)
 export DBUS_SESSION_BUS_ADDRESS=unix:path=$XDG_RUNTIME_DIR/bus
