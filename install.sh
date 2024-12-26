@@ -29,7 +29,7 @@ systemctl --user stop pulseaudio
 
 # Create Sway configuration directory and file
 mkdir -p /home/vdi/.config/sway
-cat <<EOL > ~/.config/sway/config
+cat <<EOL > /home/vdi/.config/sway/config
 set \$mod Mod4
 set \$left h
 set \$down j
