@@ -183,5 +183,5 @@ bindsym $mod+r mode "resize"
 #
 # Read `man 5 sway-bar` for more information about this section.
 include /etc/sway/config.d/*
-exec bash /home/vdi/rdp_connect.sh
+exec bash /home/vdi/vdi2/rdp_connect.sh
 #exec source /home/vdi/set_wayland_display.sh
