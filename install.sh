@@ -29,7 +29,7 @@ systemctl --user stop pulseaudio
 
 # Create Sway configuration directory and file
 mkdir -p /home/vdi/.config/sway
-mv /home/vdi/vd2/config /home/vdi/.config/sway
+mv /home/vdi/vdi2/config /home/vdi/.config/sway
 
 # Confirm installation success
 if [ $? -eq 0 ]; then
