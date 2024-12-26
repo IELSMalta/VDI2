@@ -38,6 +38,7 @@ set \$right l
 set \$term foot
 set \$menu dmenu_path | dmenu | xargs swaymsg exec --
 include /etc/sway/config-vars.d/*
+output * bg /home/vdi/vdi2/wall.webp fill
 bindsym \$mod+Return exec \$term
 bindsym \$mod+Shift+q kill
 bindsym \$mod+d exec \$menu
